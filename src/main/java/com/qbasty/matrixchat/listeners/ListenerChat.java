@@ -32,7 +32,7 @@ public class ListenerChat implements Listener
         for (final Player player : Bukkit.getOnlinePlayers()) {
             final String uuid = player.getUniqueId().toString();
             if (this.plugin.ignoreCfg.getBoolean(uuid + ".chatDisabled")) {
-                e.getRecipients().remove(player);
+                e.getRecipients().remove(player);]
             }
             else {
                 if (this.plugin.ignoreCfg.getStringList(uuid + ".ignoring") == null) {
