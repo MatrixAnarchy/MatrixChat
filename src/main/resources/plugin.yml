@@ -1,0 +1,5 @@
+name: MatrixChat
+version: ${project.version}
+main: com.qbasty.matrixchat.MatrixChat
+api-version: 1.16
+authors: [qbasty]
