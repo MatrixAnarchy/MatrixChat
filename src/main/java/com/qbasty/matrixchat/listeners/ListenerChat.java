@@ -2,7 +2,6 @@ package com.qbasty.matrixchat.listeners;
 
 import com.qbasty.matrixchat.MatrixChat;
 import org.bukkit.event.EventHandler;
-import java.util.Iterator;
 import org.bukkit.entity.Player;
 import org.bukkit.Bukkit;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
@@ -32,7 +31,7 @@ public class ListenerChat implements Listener
         for (final Player player : Bukkit.getOnlinePlayers()) {
             final String uuid = player.getUniqueId().toString();
             if (this.plugin.ignoreCfg.getBoolean(uuid + ".chatDisabled")) {
-                e.getRecipients().remove(player);]
+                e.getRecipients().remove(player);
             }
             else {
                 if (this.plugin.ignoreCfg.getStringList(uuid + ".ignoring") == null) {

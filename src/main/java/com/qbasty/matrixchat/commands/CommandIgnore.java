@@ -1,7 +1,6 @@
 package com.qbasty.matrixchat.commands;
 
 import java.util.List;
-
 import com.qbasty.matrixchat.MatrixChat;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

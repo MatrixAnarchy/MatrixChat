@@ -1,13 +1,14 @@
 package com.qbasty.matrixchat;
 
 import java.io.IOException;
+
+import com.qbasty.matrixchat.commands.CommandIgnore;
+import com.qbasty.matrixchat.commands.CommandMessage;
+import com.qbasty.matrixchat.commands.CommandToggle;
+import com.qbasty.matrixchat.listeners.ListenerChat;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.event.Listener;
-import com.qbasty.matrixchat.listeners.ListenerChat;
-import com.qbasty.matrixchat.commands.CommandToggle;
-import com.qbasty.matrixchat.commands.CommandIgnore;
 import org.bukkit.command.CommandExecutor;
-import com.qbasty.matrixchat.commands.CommandMessage;
 import org.bukkit.configuration.file.YamlConfiguration;
 import java.util.HashMap;
 import org.bukkit.configuration.file.FileConfiguration;

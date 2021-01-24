@@ -1,5 +1,36 @@
 name: MatrixChat
-version: ${project.version}
+version: 1.0
 main: com.qbasty.matrixchat.MatrixChat
 api-version: 1.16
-authors: [qbasty]
+author: qbasty
+description: Simple chat plugin for MatrixAnarchy
+
+commands:
+  message:
+    description: Message other online players.
+    aliases: [msg, m, whisper, w]
+  reply:
+    description: Reply to your most recently messaged player.
+    aliases: [r]
+  ignore:
+    description: Ignore a player's chat messages.
+  unignore:
+    description: Unignore a player's chat messages.
+  ignorelist:
+    description: Check who you're ignoring.
+  togglechat:
+    description: Toggle global chat on or off.
+  togglepms:
+    description: Toggle private messages on or off.
+    aliases: [togglepm, togglewhispers, toggledm, toggledms]
+
+
+permissions:
+  matrixchat.message:
+    description: Permission to message other players.
+  matrixchat.ignore:
+    description: Permission to ignore other players.
+  matrixchat.toggle:
+    description: Permission to toggle global chat and private messaging.
+  matrixchat.red:
+    description: Permission to use Yellow color in chat.

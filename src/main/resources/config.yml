@@ -1,0 +1,2 @@
+senderFormat: "&7[you -> %player]"
+recieverFormat: "&7[%player% -> you]"
