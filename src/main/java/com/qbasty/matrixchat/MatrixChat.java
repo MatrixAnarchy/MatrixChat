@@ -1,7 +1,6 @@
 package com.qbasty.matrixchat;
 
 import java.io.IOException;
-
 import com.qbasty.matrixchat.commands.CommandIgnore;
 import com.qbasty.matrixchat.commands.CommandMessage;
 import com.qbasty.matrixchat.commands.CommandToggle;
